@@ -1,0 +1,37 @@
+//
+//- Base Values -//
+//
+html
+	font-size: 62.5%
+
+body
+	font-size: 2.0rem
+	background-color: white
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+a
+	text-decoration: none
+
+body.lock, html.lock
+	overflow: hidden
+	position: relative
+
+body.unlock, html.unlock
+	overflow: visible
+	position: static
+
+section
+	display: flex
+	width: 100%
+	flex-direction: row
+	align-items: center
+	justify-content: center
+	height: 100vh
+
+	article
+		flex: 1
+
+	h2
+		text-align: center
+		font-size: 12.5rem
