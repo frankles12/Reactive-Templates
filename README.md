@@ -6,11 +6,7 @@ Reactive Templates is a single page application templating system built using th
 
 
 
-
-
-
-
-
+<h3>Setup/Installation</h3>
 
 Using MAMP or WAMP, link your localhost to the folder the_REST_test.
 
