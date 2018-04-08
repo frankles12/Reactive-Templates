@@ -10,7 +10,15 @@ Reactive Templates is a single page application templating system built using th
 
 Using MAMP or WAMP, link your localhost to the folder the_REST_test.
 
-Go to phpMyadmin and upload the database restTest.sql
+Go to phpMyadmin and create a database called `the_REST_test` and upload the database file restTest.sql.
+
+Inside of phpMyAdmin create a user with the following credientials:
+
+User name: Frank
+Host name: localhost
+Password: sleepisrestful
+
+After entering those values next to the Global Privileges click the check all button and press Go.
 
 Once that is all set up go to localhost:8888/wp-admin to log into the wordpress instance. Login credentials for the wordpress are as follows:
 
